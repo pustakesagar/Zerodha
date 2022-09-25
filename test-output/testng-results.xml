@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-26T01:12:21 IST" name="Default suite" finished-at="2022-08-26T01:12:31 IST" duration-ms="10125">
+  <suite started-at="2022-09-25T08:52:30 IST" name="Default suite" finished-at="2022-09-25T08:52:44 IST" duration-ms="13896">
     <groups>
     </groups>
-    <test started-at="2022-08-26T01:12:21 IST" name="Default test" finished-at="2022-08-26T01:12:31 IST" duration-ms="10125">
+    <test started-at="2022-09-25T08:52:30 IST" name="Default test" finished-at="2022-09-25T08:52:44 IST" duration-ms="13896">
       <class name="Test.Test_class">
-        <test-method is-config="true" signature="Openbrowser()[pri:0, instance:Test.Test_class@1e0b4072]" started-at="2022-08-26T01:12:21 IST" name="Openbrowser" finished-at="2022-08-26T01:12:30 IST" duration-ms="8750" status="PASS">
+        <test-method is-config="true" signature="Openbrowser()[pri:0, instance:Test.Test_class@1e0b4072]" started-at="2022-09-25T08:52:31 IST" name="Openbrowser" finished-at="2022-09-25T08:52:42 IST" duration-ms="11552" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Openbrowser -->
-        <test-method is-config="true" signature="loginapp()[pri:0, instance:Test.Test_class@1e0b4072]" started-at="2022-08-26T01:12:30 IST" name="loginapp" finished-at="2022-08-26T01:12:31 IST" duration-ms="1249" status="FAIL">
+        <test-method is-config="true" signature="loginapp()[pri:0, instance:Test.Test_class@1e0b4072]" started-at="2022-09-25T08:52:42 IST" name="loginapp" finished-at="2022-09-25T08:52:44 IST" duration-ms="2186" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
@@ -59,7 +59,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginapp -->
-        <test-method signature="verifyuserid()[pri:0, instance:Test.Test_class@1e0b4072]" started-at="2022-08-26T01:12:31 IST" name="verifyuserid" finished-at="2022-08-26T01:12:31 IST" duration-ms="0" status="SKIP">
+        <test-method signature="verifyuserid()[pri:0, instance:Test.Test_class@1e0b4072]" started-at="2022-09-25T08:52:44 IST" name="verifyuserid" finished-at="2022-09-25T08:52:44 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
@@ -107,11 +107,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyuserid -->
-        <test-method is-config="true" signature="logoutapp()[pri:0, instance:Test.Test_class@1e0b4072]" started-at="2022-08-26T01:12:31 IST" name="logoutapp" finished-at="2022-08-26T01:12:31 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="logoutapp()[pri:0, instance:Test.Test_class@1e0b4072]" started-at="2022-09-25T08:52:44 IST" name="logoutapp" finished-at="2022-09-25T08:52:44 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutapp -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Test.Test_class@1e0b4072]" started-at="2022-08-26T01:12:31 IST" name="closebrowser" finished-at="2022-08-26T01:12:31 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Test.Test_class@1e0b4072]" started-at="2022-09-25T08:52:44 IST" name="closebrowser" finished-at="2022-09-25T08:52:44 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
